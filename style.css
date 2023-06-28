@@ -8,6 +8,7 @@
 
 html{
     height: 400vh; 
+    background-color: antiquewhite;
 }
 
 .container{
@@ -184,3 +185,9 @@ header ul li a{
 
 
 
+.history{
+    height: 600px;
+    background-color: #fff;
+    margin: 80px;
+    box-shadow:5px 5px rgb(95, 95, 95);
+}
