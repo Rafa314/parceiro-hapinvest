@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -35,21 +37,23 @@ header{
 header.rolagem{
     background-color: #222020;
     padding: 10px 4%;
+    
 
 }
 header.rolagem a{
     color: #fff;
-    padding: 20px 4%;
+    padding: 30px 0%;
 }
 
 header ul{
     list-style-type: none;
+    display: flex;
 }
 
 header ul li{
+    letter-spacing: 1px;
+    margin-left: 32px;
     
-    display: inline-block;    
-    margin:0 15px;
 }
 
 header ul li a{
@@ -79,7 +83,7 @@ header ul li a{
 
  .banner h1{
     color: #fff;
-    font-size: 5em;
+    font-size: 6em;
     
  }
 
@@ -150,13 +154,13 @@ header ul li a{
 .flex-1{
     box-sizing: border-box;
     display: inline-flex;  
-    width: 100%;
    
+    
 }
 .banner-1{
     padding:50px;
     height: 400px;
-    width: 40rem;
+    width: 100%;
     background-image: url(img/3.jpg);
     background-position: center;
     background-repeat: no-repeat;   
@@ -166,7 +170,7 @@ header ul li a{
     text-align: center; 
     justify-content:space-around;
     align-items: center;
-    flex-wrap: nowrap;
+    
 }
 .banner-1 h4{
   text-align: left;
@@ -177,17 +181,30 @@ header ul li a{
     text-shadow: 1px 2px #000;
 }
 
-.banner-1 > div{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 
 
 .history{
-    height: 600px;
+    height: 100%;
     background-color: #fff;
     margin: 80px;
+    padding: 80px ;
     box-shadow:5px 5px rgb(95, 95, 95);
+
+}
+
+.history h1{
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    
+}
+.history h1 span{
+    color: goldenrod;
+}
+
+.history p{
+    
+    font-size: 190%;
+    height: 100%;
 }
